@@ -6,11 +6,11 @@ def task1():
     sqr = [float(i) for i in sqr]
     d = sqr[1] * sqr[1] - 4 * sqr[0] * sqr[2]
     if d > 0:
-        print(f'Корни уравнения равны: {round((-sqr[1] + sqrt(d)) / 2 * sqr[0], 2)} и {round((-sqr[1] - sqrt(d)) / 2 * sqr[0], 2)}')
+        print(f'Корни уравнения равны: {round((-sqr[1] + sqrt(d)) / 2 * sqr[0], 2)} и {round((-sqr[1] - sqrt(d)) / 2 * sqr[0], 2)}\n')
     elif d == 0:
-        print(f'Корень уравнения равен: {round(-sqr[1] / 2 * sqr[0], 2)}')
+        print(f'Корень уравнения равен: {round(-sqr[1] / 2 * sqr[0], 2)}\n')
     else:
-        print('Уравнение не имеет решения')
+        print('Уравнение не имеет решения\n')
 
 def task2():
     print("""Создать программу, запрашивающую у пользователя два числа и математическую операцию,
