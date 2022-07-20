@@ -1,0 +1,12 @@
+// Family graph
+digraph Family {
+	A [label="Семья"]
+	B [label="Папа"]
+	C [label="Мама"]
+	D [label="Сын"]
+	E [label="Дочь"]
+	A -> B
+	A -> C
+	A -> D
+	A -> E
+}
