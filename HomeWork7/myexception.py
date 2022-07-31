@@ -1,0 +1,2 @@
+class NoNodeClassError(Exception):
+    pass
