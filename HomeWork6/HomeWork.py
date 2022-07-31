@@ -11,4 +11,9 @@ def main():
     tree.walk()
 
 if __name__ == '__main__':
-    main()
+    tree = Tree('Test')
+    tree.create_node(1)
+    print(tree.node)
+    tree.node = 1
+    print(tree.node)
+    # main()
