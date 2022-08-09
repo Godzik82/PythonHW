@@ -1,10 +1,8 @@
 import curses
 import random
-import time
-from tkinter import LEFT
-from snake import Snake
-from food import Food
-from table import Field
+from package.snake import Snake
+from package.food import Food
+from package.table import Field
 
 def game():
     stdscr = curses.initscr()
